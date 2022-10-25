@@ -78,7 +78,7 @@ export default class {
   post(config) {
     return this.axiosInstance.request({ method: 'POST', ...config });
   }
-  /** post请求 */
+  /** delete请求 */
   delete(config) {
     return this.axiosInstance.request({ method: 'DELETE', ...config });
   }
